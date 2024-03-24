@@ -5,4 +5,3 @@ from .routes import router as bookdisplay
 if __name__ == "__main__":
     app = FastAPI()
     app.include_router(bookdisplay)
-# ====    This is going to become a BOOk Store ! ========
