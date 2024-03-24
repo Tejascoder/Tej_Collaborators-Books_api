@@ -1,4 +1,4 @@
-from Bookstore.main import app as Book
+from main import app as Book
 
 @Book.get("/Books")
 def get_books():
